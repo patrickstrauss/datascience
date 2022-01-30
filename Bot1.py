@@ -146,7 +146,10 @@ def check_signal(symbol):
 
 def get_signal_for_stocks(symbols):
     for symbol in symbols:
-        check_signal(symbol)
+        try:
+            check_signal(symbol)
+        except:
+            print("Error while processing symbol: ",symbol)
 
 
 # In[10]:
