@@ -7,11 +7,6 @@
 import settrade.openapi
 from settrade.openapi import Investor
 import pandas as pd
-import numpy as np
-import plotly.graph_objects as go
-from pandasql import sqldf
-import sys
-import math
 
 
 # In[2]:
